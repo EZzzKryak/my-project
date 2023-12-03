@@ -48,10 +48,7 @@ module.exports = {
                 markupOnly: true,
                 ignoreAttribute: ['data-testid'],
             }],
-        'linebreak-style': [
-            'error',
-            'windows',
-        ],
+        'linebreak-style': 0, // Возможный фикс
         quotes: [
             'error',
             'single',
