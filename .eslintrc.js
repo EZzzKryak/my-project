@@ -31,6 +31,7 @@ module.exports = {
             2,
             { extensions: ['.js', '.jsx', '.tsx'] },
         ],
+        'no-param-reassign': 'off',
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'error',
         'import/no-unresolved': 'off',
@@ -68,6 +69,12 @@ module.exports = {
         rules: {
             'i18next/no-literal-string': 'off',
             'max-len': 'off',
+        },
+    },
+    {
+        files: ['src/**/*.slice.ts'],
+        rules: {
+            'no-param-reassign': ['error', { props: false }],
         },
     }],
     globals: {

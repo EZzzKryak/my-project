@@ -28,8 +28,8 @@ export function Navbar({ className }: NavbarProps) {
                 {t('Войти')}
             </Button>
             <Modal isOpen={isAuthModal} onClose={onToggleModal}>
-                {/* eslint-disable-next-line max-len */}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eveniet velit eligendi eum? Sapiente magni in necessitatibus ex obcaecati deleniti voluptatem, quos ducimus aliquid error totam consequuntur mollitia, ea temporibus?
+                {/* eslint-disable max-len */}
+                {t('Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eveniet velit eligendi eum? Sapiente magni in necessitatibus ex obcaecati deleniti voluptatem, quos ducimus aliquid error totam consequuntur mollitia, ea temporibus?')}
             </Modal>
         </div>
     );
