@@ -9,5 +9,11 @@
     "Произошла непредвиденная ошибка": "Error",
     "Обновить страницу": "Refresh the page",
     "Выкинуть ошибку": "Throw error",
-    "Короткий язык": "En"
+    "Короткий язык": "En",
+    "Войти": "Login",
+    "Выйти": "Logout",
+    "Вы ввели неверный логин или пароль": "Uncorrect username or password",
+    "Введите логин": "Enter username",
+    "Введите пароль": "Enter password",
+    "Форма авторизации": "Authorization form"
 }
