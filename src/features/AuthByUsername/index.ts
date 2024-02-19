@@ -1,3 +1,2 @@
-export { LoginSchema } from 'features/model/types/loginSchema';
-export { loginReducer } from 'features/model/slice/loginSlice';
+export { LoginSchema } from '../AuthByUsername/model/types/loginSchema';
 export { LoginModal } from './ui/LoginModal/LoginModal';
