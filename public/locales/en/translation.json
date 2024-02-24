@@ -4,7 +4,9 @@
     "Язык": "English",
     "Короткий язык": "En",
     "Страница не найдена": "Page not found",
+    "Главная страница": "Main Page",
     "Главная": "Main",
+    "Страница о сайте": "About Page",
     "О сайте": "About",
     "Скрыть": "Hide",
     "Произошла непредвиденная ошибка": "Error",
@@ -15,5 +17,7 @@
     "Вы ввели неверный логин или пароль": "Uncorrect username or password",
     "Введите логин": "Enter username",
     "Введите пароль": "Enter password",
-    "Форма авторизации": "Authorization form"
+    "Форма авторизации": "Authorization form",
+    "Профиль": "Profile",
+    "Страница пользователя": "Profile Page"
 }

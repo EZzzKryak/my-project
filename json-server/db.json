@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": { 
+    "name": "Александр", 
+    "lastname": "Александр", 
+    "age": 33,
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Nizhny Novgorod",
+    "username": "admin",
+    "avatar": "https://cs8.pikabu.ru/post_img/big/2016/04/13/8/1460549895152122999.jpg"
+   }
 }

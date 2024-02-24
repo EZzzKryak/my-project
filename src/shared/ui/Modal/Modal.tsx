@@ -1,4 +1,3 @@
-import { useTheme } from 'app/providers/ThemeProvider';
 import React, {
     FC, ReactNode, useCallback, useEffect, useRef, useState,
 } from 'react';
@@ -24,7 +23,6 @@ export const Modal: FC<ModalProps> = (props) => {
     const [isClosing, setIsClosing] = useState(false);
     const [isMounted, setIsMounted] = useState(false);
     const timerRef = useRef<ReturnType<typeof setTimeout>>();
-    const { theme } = useTheme();
 
     const onContentClick = (e: React.MouseEvent) => {
         e.stopPropagation();
